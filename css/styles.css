@@ -16,8 +16,7 @@ h1{
 	font-family: 'Montserrat', sans-serif;
 }
 h2{
-	font-size: 2.5rem;
-	line-height: 1.5;
+	font-size: 1.3rem;
 	padding: 6% 20% 2% 20%;
 	font-family: 'Montserrat', sans-serif;
 }
@@ -138,10 +137,16 @@ h2{
 /*Media*/
 
 @media(max-width:992px){
+	    #title{
+	    	text-align: center;
+	    }
+	    #title-div{
+	    	text-align: center;
+	    }
            h1{
            	text-align: center;
            }
            .title-image{
-           	transform: rotate(0);
+           	margin-top: 7%;
            }
 }
