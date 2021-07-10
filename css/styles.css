@@ -137,14 +137,11 @@ h2{
 
 /*Media*/
 
-/*@media(max-width:992px){
+@media(max-width:992px){
            h1{
            	text-align: center;
            }
            .title-image{
            	transform: rotate(0);
            }
-           .row{
-           	width: 8rem;
-           }
-}*/
+}
